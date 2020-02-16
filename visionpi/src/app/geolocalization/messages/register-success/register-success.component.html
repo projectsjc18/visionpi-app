@@ -1,0 +1,19 @@
+<div class="register-success-container">
+    <header id="register-success-header">
+        <h1 id="register-success-title">Hi {{data.title}}</h1>
+    </header>
+    <section id="register-success-body">
+        <p>The {{data.message}} account was successfully registered!</p>
+    </section>
+    <footer id="register-success-footer">
+      <div class="register-success-button-container">
+        <div class="register-success-button-column">
+
+        </div>
+        <div class="register-success-button-column">
+          <!--<button mat-raised-button id="register-success-action-button" (click)="action()">Logout</button>-->
+          <button class="button button-save" (click)="close()">Cheers!</button>
+        </div>
+      </div>
+    </footer>
+</div>

@@ -1,0 +1,42 @@
+<div class="map-container">
+  <div class="map-column">
+    <agm-map [zoom]="zoom" [latitude]="lat" [longitude]="lng">
+    	<agm-marker
+        *ngFor="let point of checkpoints"
+        [latitude]="point.lat"
+        [longitude]="point.lng"
+        [label]="point.checkpoint">
+      </agm-marker>
+      <agm-polyline [editable]="true">
+        <agm-polyline-point
+          *ngFor="let line of checkpointsLines"
+          [latitude]="line.lat"
+          [longitude]="line.lng">
+        </agm-polyline-point>
+      </agm-polyline>
+    </agm-map>
+  </div>
+</div>
+<div class="map-container">
+  <div class="map-column">
+    <p> Operator: <span>{{lastCheckpoint.operator}}</span></p>
+    <p> Date:
+      <span> {{lastCheckpoint.registerDate}} </span>
+      <!--<span> -- {{lastCheckpoint.operator}} </span>
+      <span> -- {{lastCheckpoint.updated_at}} </span>-->
+    </p>
+  </div>
+  <div class="map-column map-column-items-end">
+    <button mat-icon-button class="refresh-button" (click)="loadCheckpoints()" >
+      <mat-icon>refresh</mat-icon>
+    </button>
+    <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu" xPosition="before">
+      <button mat-menu-item>Video</button>
+      <button mat-menu-item>Revisión</button>
+      <button mat-menu-item>Notificación</button>
+    </mat-menu>
+  </div>
+</div>

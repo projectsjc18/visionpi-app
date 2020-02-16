@@ -1,0 +1,90 @@
+h2 {
+  font-weight: 100;
+  /*margin: 0px 3%;*/
+}
+
+.user-header   {
+  color: #ccc;
+  margin: 1% 1%;
+}
+
+.user-divider {
+  background: #ccc;
+}
+
+mat-form-field {
+  margin-right: 12px;
+}
+
+table {
+  width: 100%;
+  background: transparent;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  margin-right: 12px;
+  width: 50%;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+td, th {
+  width: 20%;
+  color: #fff;
+}
+
+.users-card {
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #ffff;
+  background: rgba(40, 46, 51, 0.7);
+  display: block;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.users-card-title {
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #ffff;
+  background: rgba(40, 46, 51, 0.7);
+  text-align: center;
+  display: block;
+  margin: 1% 1% 0.5% 1%;
+  border-radius: 3px;
+}
+
+.users-card-content {
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #ffff;
+  background: rgba(40, 46, 51, 0.7);
+  display: block;
+  margin: 2%;
+  border-radius: 5px;
+  box-shadow: 0px 30px 60px -5px #000;
+}
+
+/* ---------------- Flex ---------------------*/
+.user-wrapper {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+}
+
+.user-main {
+  -webkit-flex: 3 1 60%;
+          flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+}
+
+@media all and (max-width: 640px) {
+
+  .user-wrapper {
+    -webkit-flex-flow: column;
+            flex-flow: column;
+  }
+
+}

@@ -1,0 +1,15 @@
+<div class="header-container">
+  <div class="header-column">
+    <header class="header">
+      <h2>{{title}}</h2>
+    </header>
+  </div>
+  <div class="header-column">
+    <div class="">
+      <button *ngFor="let option of optionList" routerLink="option.url" class="header-button"> <mat-icon class="header-button-icon">{{option.icon}}</mat-icon>{{option.description}}</button>
+      <!--<button routerLink="/home/geolocalization/administration/account-list" class="button"> <mat-icon class="button-icon">group</mat-icon>Account List</button>
+      <button routerLink="/home/geolocalization/administration/tracker" class="button"> <mat-icon class="button-icon">satellite</mat-icon>Tracker</button>-->
+    </div>
+  </div>
+</div>
+<mat-divider></mat-divider>

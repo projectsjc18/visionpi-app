@@ -1,0 +1,204 @@
+/*html,body{height:100%;margin:0;padding:0;}*/
+/*body{background-image:url(../../../assets/images/technology-3243375_1920.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;min-height:100vh;font-family:'Roboto', sans-serif;}*/
+/*.app-header{justify-content:space-between;position:fixed;top:0;left:0;right:0;z-index:2;box-shadow:0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);}
+.login-wrapper{height:100%;}
+.positronx{text-decoration:none;color:#ffffff;}
+.box{position:relative;top:40%;left:60%;opacity:1;float:left;padding:60px 50px 40px 50px;width:100%;background:#fff;border-radius:10px;transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);z-index:5;max-width:330px;}
+.box.back{transform:scale(.95);-webkit-transform:scale(.95);-ms-transform:scale(.95);top:-20px;opacity:.8;z-index:-1;}
+.box:before{content:"";width:100%;height:30px;border-radius:10px;position:absolute;top:-10px;background:rgba(255, 255, 255, .6);left:0;transform:scale(.95);-webkit-transform:scale(.95);-ms-transform:scale(.95);z-index:-1;}
+.login-wrapper .example-form{min-width:100%;max-width:300px;width:100%;}
+.login-wrapper .example-full-width,.login-wrapper .btn-block{width:100%;}
+.login-wrapper mat-card-header{text-align:center;width:100%;display:block;font-weight:700;}
+.login-wrapper mat-card-header mat-card-title{font-size:30px;margin:0;}
+.login-wrapper .mat-card{padding:40px 70px 50px;}
+.login-wrapper .mat-stroked-button{border:1px solid currentColor;line-height:54px;background:#FFF7FA;}
+.login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix{padding:0.8375em 0;}*/
+
+/* ---------------------------- new --------------------- */
+body {
+  font-family: "Roboto", sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+a, p {
+  color: #126db5;
+  text-decoration: none;
+}
+
+a {
+  font-weight: bold;
+}
+
+h5, h4, h3, h2, h1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
+.login-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+  height: 100vh;
+  /* Location of the image */
+  background-image: url(../../../assets/images/businessman-3213659_1920.jpg);
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+.bordered-box {
+  color: white;
+  border: 1px solid #126db5;
+  border-radius: 4px;
+  padding: 7px;
+  margin: 6px;
+}
+
+.column-gray {
+  background: transparent;
+}
+
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
+.column-double {
+  flex-direction: column;
+  flex: 2;
+}
+
+.side {
+  flex: 0.3;
+}
+
+.centered-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.login-input {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #ffffff;
+  min-width: 200px;
+  max-width: 350px;
+  width: 90%;
+  padding-top: 10px;
+  margin: 5px;
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #126db5;
+  border-left: transparent;
+  background: transparent;
+}
+
+.login-input:active {
+  border-bottom: 2px solid #126db5;
+}
+
+.login-input::placeholder {
+  color: #cccccc;
+}
+
+.button {
+  max-width: 350px;
+  width: 90%;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #126db5;
+  background: transparent;
+  padding: 5px;
+  border: 1px solid #126db5;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.image {
+  margin: auto;
+  max-width: 80%;
+  min-width: 200px;
+  height: auto;
+}
+
+.login-input:focus {
+  color: #ccccc;
+  outline: transparent;
+  border-bottom: 2px solid #126db5;
+}
+
+.login-form {
+  height: 14em;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+  /*border-radius: 5px;*/
+  opacity: 0.8;
+  filter: alpha(opacity=80); // IE 5-7
+}
+
+.login-visionpi-description {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  height: 20em;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+  opacity: 0.9;
+}
+
+*:focus {
+  background: transparent;/*rgba(255, 255, 255, 0.2);*/
+  outline-color: #ccccc;
+}
+
+
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .login-container {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .login-container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+    /*-webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;*/
+  }
+}

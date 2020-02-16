@@ -1,0 +1,23 @@
+<div class="geolocalization-container">
+  <div class="geolocalization-column">
+    <header class="geolocalization-header">
+      <h2>Geolocation > Administration </h2>
+
+    </header>
+  </div>
+  <div class="geolocalization-column">
+    <div class="">
+      <button routerLink="/home/geolocalization/administration/account" class="button"> <mat-icon class="button-icon">person_add</mat-icon>Add account</button>
+      <button routerLink="/home/geolocalization/administration/account-list" class="button"> <mat-icon class="button-icon">group</mat-icon>Account List</button>
+      <button routerLink="/home/geolocalization/administration/tracker" class="button"> <mat-icon class="button-icon">satellite</mat-icon>Tracker</button>
+    </div>
+  </div>
+</div>
+<mat-divider></mat-divider>
+<div class="geolocalization-container">
+  <div class="geolocalization-column">
+    <mat-card class="geolocalization-card-content">
+      <router-outlet></router-outlet>
+    </mat-card>
+  </div>
+</div>

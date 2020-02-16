@@ -1,0 +1,383 @@
+<h3 mat-subheader class="user-register-header">User Register</h3>
+<form class="example-form" [formGroup]="userForm">
+  <mat-accordion class="example-headers-align">
+    <mat-expansion-panel [expanded]="step === 0" (opened)="setStep(0)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Personal data
+        </mat-panel-title>
+        <mat-panel-description>
+          Type your name and age.....
+          <mat-icon>account_circle</mat-icon>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Firstname" formControlName="firstname" class="user-input" maxlength="25" required>
+        </div>
+        <div *ngIf="firstname.invalid && (firstname.dirty || firstname.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="firstname.errors.required">
+            Firstname is required.
+          </div>
+          <div *ngIf="firstname.errors.minlength">
+            Firstname must be at least 5 characters long.
+          </div>
+          <div *ngIf="firstname.errors.maxlength">
+            Firstname must be a maximum of 25 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Last name(s)" formControlName="lastname" class="user-input" maxlength="25">
+        </div>
+        <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="lastname.errors.required">
+            Lastname is required.
+          </div>
+          <div *ngIf="lastname.errors.minlength">
+            Lastname must be at least 5 characters long.
+          </div>
+          <div *ngIf="firstname.errors.maxlength">
+            Lastname must be a maximum of 25 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <div class='vertical-align'>
+            <div class='btns'>
+              <label>
+                <span class='btn user-register-paragraph'>  Gender</span>
+              </label>
+              <label *ngFor="let genre of genres" >
+                <input name='gender' type='radio' [value]="genre" formControlName="gender">
+                  <span class='btn'>{{genre}}</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="gender.invalid && (gender.dirty || gender.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="gender.errors.required">
+            Gender is required.
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p>
+          <mat-form-field>
+            <input matInput [matDatepicker]="BirthdatePicker" placeholder="Birthday" formControlName="birthday" disabled style="color: #fff;">
+            <mat-datepicker-toggle matSuffix [for]="BirthdatePicker"></mat-datepicker-toggle>
+            <mat-datepicker #BirthdatePicker disabled="false"></mat-datepicker>
+          </mat-form-field>
+        </p>
+        <div *ngIf="birthday.invalid && (birthday.dirty || birthday.touched)" class="">
+          <div *ngIf="birthday.errors.required">
+            Birthday is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <div class='vertical-align'>
+            <div class='btns'>
+              <label>
+                <span class='btn user-register-paragraph'>  Profile</span>
+              </label>
+              <label *ngFor="let profile of profiles" >
+                <input name='profile' type='radio' [value]="profile.value" formControlName="profile">
+                  <span class='btn'>{{profile.viewValue}}</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="profile.invalid && (profile.dirty || profile.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="profile.errors.required">
+            Profile is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Email" formControlName="email" class="user-input" required>
+        </div>
+        <div *ngIf="email.invalid && (email.dirty || email.touched)" class="user-register-column">
+          <div *ngIf="email.errors.required">
+            Email is required.
+          </div>
+          <div *ngIf="email.errors.email && !email.errors.required">
+            Please enter a valid email address
+          </div>
+        </div>
+      </div>
+
+      <mat-action-row>
+        <button mat-button (click)="nextStep()">Next</button>
+      </mat-action-row>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel [expanded]="step === 1" (opened)="setStep(1)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Credentials
+        </mat-panel-title>
+        <mat-panel-description>
+          Type the user and password.....
+          <mat-icon>lock</mat-icon>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Username" formControlName="username" class="user-input" maxlength="10">
+        </div>
+        <div *ngIf="username.invalid && (username.dirty || username.touched)" class="user-register-column">
+          <div *ngIf="username.errors.required">
+            Username is required.
+          </div>
+          <div *ngIf="username.errors.minlength">
+            Username must be at least 5 characters long.
+          </div>
+          <div *ngIf="username.errors.maxlength">
+            Username must be a maximum of 10 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" formControlName="password" class="user-input" maxlength="10">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </div>
+        <div *ngIf="password.invalid && (password.dirty || password.touched)" class="user-register-column">
+          <div *ngIf="password.errors.required">
+            Password is required.
+          </div>
+          <div *ngIf="password.errors.minlength">
+            Password must be at least 8 characters long.
+          </div>
+          <div *ngIf="password.errors.maxlength">
+            Password must be a maximum of 10 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Confirm your password" [type]="hide ? 'password' : 'text'" formControlName="confirmPassword" class="user-input" maxlength="10">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </div>
+        <div *ngIf="password.invalid && (password.dirty || password.touched)" class="user-register-column">
+          <div *ngIf="password.errors.required">
+            Password is required.
+          </div>
+          <div *ngIf="password.errors.minlength">
+            Password must be at least 8 characters long.
+          </div>
+          <div *ngIf="password.errors.maxlength">
+            Password must be a maximum of 10 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <mat-action-row>
+        <button mat-button color="warn" (click)="prevStep()">Previous</button>
+        <button mat-button color="primary" (click)="nextStep()">Next</button>
+      </mat-action-row>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(2)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Address
+        </mat-panel-title>
+        <mat-panel-description>
+          Type the street, city, etc.....
+          <mat-icon>map</mat-icon>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Street" formControlName="street" class="user-input" maxlength="25">
+        </div>
+        <div *ngIf="street.invalid && (street.dirty || street.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="street.errors.required">
+            Street is required.
+          </div>
+          <div *ngIf="street.errors.minlength">
+            Street must be at least 5 characters long.
+          </div>
+          <div *ngIf="street.errors.maxlength">
+            Street must be a maximum of 25 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="City" formControlName="city" class="user-input" maxlength="25">
+        </div>
+        <div *ngIf="city.invalid && (city.dirty || city.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="city.errors.required">
+            City is required.
+          </div>
+          <div *ngIf="city.errors.minlength">
+            City must be at least 5 characters long.
+          </div>
+          <div *ngIf="city.errors.maxlength">
+            City must be a maximum of 25 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="State/Province" formControlName="state" class="user-input" maxlength="25">
+        </div>
+        <div *ngIf="state.invalid && (state.dirty || state.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="state.errors.required">
+            State/Province is required.
+          </div>
+          <div *ngIf="state.errors.minlength">
+            State/Province must be at least 5 characters long.
+          </div>
+          <div *ngIf="state.errors.maxlength">
+            State/Province must be a maximum of 25 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput placeholder="Country" formControlName="country" class="user-input" maxlength="25">
+        </div>
+        <div *ngIf="country.invalid && (country.dirty || country.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="country.errors.required">
+            Country is required.
+          </div>
+          <div *ngIf="country.errors.minlength">
+            Country must be at least 5 characters long.
+          </div>
+          <div *ngIf="country.errors.maxlength">
+            Country must be a maximum of 25 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <div class="user-register-container">
+        <div class="user-register-column">
+          <input matInput #postalCode placeholder="Postal Code" formControlName="postalCode" class="user-input" maxlength="5">
+          <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
+        </div>
+        <div *ngIf="postalCode.invalid && (postalCode.dirty || postalCode.touched)" class="user-register-column user-register-input-error">
+          <div *ngIf="postalCode.errors.required">
+            Postal Code is required.
+          </div>
+          <div *ngIf="postalCode.errors.minlength">
+            Postal Code must be at least 5 characters long.
+          </div>
+          <div *ngIf="firstname.errors.maxlength">
+            Postal Code must be a maximum of 5 characters in length.
+          </div>
+        </div>
+      </div>
+
+      <mat-action-row>
+        <button mat-button color="warn" (click)="prevStep()">Previous</button>
+        <button mat-button color="primary" (click)="nextStep()">Next</button>
+      </mat-action-row>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel [expanded]="step === 3" (opened)="setStep(3)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Platforms
+        </mat-panel-title>
+        <mat-panel-description>
+          Inform the services and platforms ....
+          <mat-icon>phonelink</mat-icon>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <div class="" formGroupName="platforms">
+        <div class="user-register-container">
+          <div class="user-register-column">
+            <div class='user-register-checks-container-large'>
+              <div class='user-register-checks'>
+                <label>
+                  <span class='user-register-check user-register-paragraph'>Services</span>
+                </label>
+                <label formArrayName="services" *ngFor="let service of userForm.controls.platforms.controls.services.controls; let i = index" >
+                  <input type='checkbox' [formControlName]="i">
+                    <span class="user-register-check"><mat-icon>{{services[i].icon}}</mat-icon></span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!--<div *ngIf="gender.invalid && (gender.dirty || gender.touched)" class="user-register-column user-register-input-error">
+            <div *ngIf="gender.errors.required">
+              Gender is required.
+            </div>
+          </div>-->
+        </div>
+        <div class="user-register-container">
+          <div class="user-register-column">
+            <div class='vertical-align'>
+              <div class='btns'>
+                <label>
+                  <span class='btn user-register-paragraph'>Permissions:</span>
+                </label>
+                <label *ngFor="let permission of permissions" >
+                  <input type='checkbox'>
+                    <span class='btn'>{{permission}}</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!--<div *ngIf="gender.invalid && (gender.dirty || gender.touched)" class="user-register-column user-register-input-error">
+            <div *ngIf="gender.errors.required">
+              Gender is required.
+            </div>
+          </div>-->
+        </div>
+        <div class="user-register-container">
+          <div class="user-register-column">
+            <div class='vertical-align'>
+              <div class='btns'>
+                <label>
+                  <span class='btn user-register-paragraph'>Notifications:</span>
+                </label>
+                <label *ngFor="let notification of notifications" >
+                  <input type='checkbox'>
+                    <span class='btn'>{{notification}}</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!--<div *ngIf="gender.invalid && (gender.dirty || gender.touched)" class="user-register-column user-register-input-error">
+            <div *ngIf="gender.errors.required">
+              Gender is required.
+            </div>
+          </div>-->
+        </div>
+      </div>
+
+      <mat-action-row>
+        <button mat-button color="warn" (click)="prevStep()">Previous</button>
+        <button mat-button color="primary" (click)="onSubmit(userForm.value)" [disabled]="!userForm.valid">Finish</button>
+      </mat-action-row>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+</form>

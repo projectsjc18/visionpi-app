@@ -1,0 +1,85 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {
+   MatButtonModule,
+   MatToolbarModule,
+   MatIconModule,
+   MatBadgeModule,
+   MatSidenavModule,
+   MatListModule,
+   MatGridListModule,
+   MatFormFieldModule,
+   MatInputModule,
+   MatMenuModule,
+   MatSelectModule,
+   MatRadioModule,
+   MatDatepickerModule,
+   MatNativeDateModule,
+   MatChipsModule,
+   MatTooltipModule,
+   MatTableModule,
+   MatPaginatorModule,
+   MatExpansionModule,
+   MatTabsModule,
+   MatCheckboxModule,
+   MatDialogModule
+} from '@angular/material';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatBadgeModule,
+    MatListModule,
+    MatGridListModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatMenuModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatChipsModule,
+    MatTooltipModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatExpansionModule,
+    MatTabsModule,
+    MatCheckboxModule,
+    MatDialogModule,
+    MatBottomSheetModule
+  ],
+  exports: [
+    MatButtonModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatBadgeModule,
+    MatListModule,
+    MatGridListModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatMenuModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatDatepickerModule,
+    MatChipsModule,
+    MatTooltipModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatExpansionModule,
+    MatTabsModule,
+    MatCheckboxModule,
+    MatDialogModule,
+    MatBottomSheetModule
+  ],
+  providers: [
+    MatDatepickerModule,
+  ]
+})
+export class AngularMaterialModule { }

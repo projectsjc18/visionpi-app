@@ -1,0 +1,419 @@
+/* ---------------- CONTAINERS ------------------- */
+.account-register-container-principal {
+  background: #1d1e22;
+  box-shadow: 0 4px 30px rgba(0,0,0,.5);
+  border-radius: 3px;
+}
+
+.account-register-container {
+  font: 100 'Montserrat';
+  margin: 5px 2%;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+}
+
+.account-register-column {
+  text-align: start;
+  align-self: center;
+  -webkit-flex: 3 1 60%;
+          flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+}
+
+.account-register-header {
+  display: grid;
+  grid-template-columns: 36px auto 36px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .account-register-container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+    /*-webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;*/
+  }
+}
+
+/* ------------- h1 - h5 ---------------- */
+
+h2 {
+  font-weight: 100;
+  font-size: larger;
+  margin: 0px 3%;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: larger;
+}
+
+h5 {
+  margin: 5px 2.5%;
+  font-weight: 100;
+}
+
+/* -------------- INPUTS --------------*/
+.account-register-input {
+  font-family: 'Monserrat', 'Open Sans', Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.5em;
+  color: #ffffff;
+  min-width: 200px;
+  max-width: 350px;
+  width: 90%;
+  padding-top: 10px;
+  margin: 5px;
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #126db5;
+  border-left: transparent;
+  background: transparent;
+}
+
+.account-register-input:focus {
+  color: #ccccc;
+  outline: transparent;
+  border-bottom: 2px solid #126db5;
+}
+
+.account-register-input:active {
+  border-bottom: 2px solid #126db5;
+}
+
+.account-register-input::placeholder {
+  color: #65737e;
+}
+
+.account-register-paragraph {
+  text-align: left;
+}
+
+.account-register-column-items-end {
+  text-align: end;
+}
+
+.account-register-input-error {
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: small;
+  font-style: oblique;
+}
+
+/* Search 4 - appear looking glass */
+.account-register-search{
+	/*overflow: hidden;
+	width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;*/
+  /*margin: 10px 10px;*/
+  /*border-color: red;*/
+  /* position: relative; */
+}
+.account-register-search input#search{
+  /*width: 300px;
+  height: 50px;*/
+  /*background: #2b303b;*/
+  border: none;
+  font-size: 10pt;
+  float: left;
+	color: #fff;
+  min-width: 200px;
+  max-width: 350px;
+  width: 80%;
+  padding-top: 10px;
+  margin: 5px;
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #126db5;
+  border-left: transparent;
+  background: transparent;
+  /*padding-left: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #126db5;
+  border-left: transparent;
+  background: transparent;*/
+
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.account-register-search input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+
+.account-register-search input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;
+}
+
+.account-register-search input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;
+}
+
+.account-register-search input#search:-ms-input-placeholder {
+   color: #65737e;
+}
+
+.account-register-search button.icon{
+	-webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  /*background: #232833;*/
+  background: transparent;
+  /*height: 50px;*/
+  width: 50px;
+  color: #4f5b66;
+  opacity: 0;
+  font-size: 10pt;
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+/* ANIMATION EFFECT */
+.account-register-search:hover button.icon, .account-register-search:active button.icon, .account-register-search:focus button.icon{
+    outline:none;
+    opacity: 1;
+    margin-left: -50px;
+    cursor: pointer;
+  }
+
+  .account-register-search input#search:focus {
+    color: #ccccc;
+    outline: transparent;
+    border-bottom: 2px solid #126db5;
+  }
+
+/* --------------------- Buttons ------------------ */
+
+.button {
+  background: transparent;
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: small;
+  color: #f4f4f4;
+  /*flex: 1 1 auto;*/
+  margin: 5px;
+  padding: 0 15px;
+  line-height: 34px;
+  /*padding: 20px;*/
+  border: 0px solid #f7f7f7;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-radius: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  &:after {
+    position: absolute;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 1px;
+    background: #74b087;
+  }
+  &:nth-of-type(2):after {
+    left: 0;
+    background: #de7300;
+  }
+  &:nth-of-type(3):after {
+    right: 0;
+    left: auto;
+  }
+  &:nth-of-type(4):after {
+    left: 0;
+    bottom: auto;
+    top: -3px;
+    width: 100%;
+  }
+  &:nth-of-type(5):after {
+    height: 120%;
+    left: -10%;
+    transform: skewX(15deg);
+    z-index: -1;
+  }
+  &:hover {
+    cursor: pointer;
+    &:after {
+      width: 100%;
+      left: 0;
+    }
+    &:nth-of-type(4):after {
+      top: calc(100% - 3px);
+    }
+    &:nth-of-type(5) {
+      color: #5bcaff;
+    }
+    &:nth-of-type(5):after {
+      left: -10%;
+      width: 120%;
+    }
+    // &:nth-of-type(6) {
+    //   flex-grow:3;
+    // }
+    // &:nth-of-type(6):after {
+    //   width: 0%;
+    // }
+    &:nth-of-type(6) {
+      border-radius: 30px;
+    }
+    &:nth-of-type(6):after {
+      width: 0%;
+    }
+    &:nth-of-type(7) {
+      transform: scale(1.2);
+    }
+    &:nth-of-type(7):after {
+      width: 0%;
+    }
+    &:nth-of-type(8) {
+      box-shadow: inset 0px 0px 0px 3px #f7f7f7;
+    }
+    &:nth-of-type(8):after {
+      width: 0%;
+    }
+    &:nth-of-type(9) {
+      box-shadow: 0px 0px 0px 3px #f7f7f7;
+    }
+    &:nth-of-type(9):after {
+      width: 0%;
+    }
+  }
+}
+
+.button-save {
+  color: #74b087;
+}
+
+.button-cancel {
+  color: #de7300;
+}
+
+/* ---------------- Radio Buttons ---------------- */
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+  font: 100 'Montserrat';
+  width: 26em;
+  padding: 10px 0px;
+  /*height: 100vh;*/
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.btns {
+  background: transparent;
+  /*background-color: #ff9035;*/
+  /*background-image: linear-gradient(100deg, #ff5a64 0%, #faa04b 30%, #d2dc69 70%, #0ef49b 100%);*/
+  z-index: 0;
+  height: 35px;
+  float: none;
+  margin: 0 0 0 1.5%;
+  /*width: 900px;*/
+  max-width: 100%;
+  border-radius: 3px;
+  display: block;
+  box-shadow: 0 2px 4px -1px rgba(25, 25, 25, 0.2);
+  border-bottom: 1px solid #126db5;
+}
+.btns input {
+  display: none;
+}
+.btns label {
+  display: table;
+  float: left;
+  padding: 0;
+  width: 24%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+.btns label:first-child {
+  border-left: none;
+  border-radius: 40px 0 0 40px;
+}
+.btns label:last-child {
+  border-radius: 0 40px 40px 0;
+}
+.btns .btn {
+  font-size: 13px;
+  cursor: pointer;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 100;
+  color: #FFF;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  /*box-shadow: inset 0 30px 20px -20px rgba(255, 255, 255, 0.15);*/
+  -webkit-transition: color 250ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: color 250ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+.btns .btn:hover {
+  box-shadow: inset 0 30px 30px -20px rgba(50, 50, 50, 0.02);
+  -webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btns .btn:after {
+  content: '\2714';
+  margin-left: -10px;
+  display: inline-block;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: margin 250ms cubic-bezier(0.6, -0.28, 0.735, 0.045) 100ms, -webkit-transform 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: margin 250ms cubic-bezier(0.6, -0.28, 0.735, 0.045) 100ms, -webkit-transform 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: margin 250ms cubic-bezier(0.6, -0.28, 0.735, 0.045) 100ms, transform 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: margin 250ms cubic-bezier(0.6, -0.28, 0.735, 0.045) 100ms, transform 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22), -webkit-transform 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+.btns .first {
+  border-radius: 40px 0 0 40px;
+}
+.btns .last {
+  border-radius: 0 40px 40px 0;
+}
+.btns input:checked + .btn {
+  color: #126db5;
+  text-shadow: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(65%, rgba(25, 25, 25, 0)), to(rgba(25, 25, 25, 0.08)));
+  background-image: linear-gradient(to top, rgba(25, 25, 25, 0) 65%, rgba(25, 25, 25, 0.08));
+  box-shadow: inset 0 10px 50px rgba(25, 25, 25, 0.08);
+  -webkit-transition: color 500ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 150ms;
+  transition: color 500ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 150ms;
+  border-bottom: 1px #126db5 solid;
+}
+.btns input:checked + .btn:after {
+  margin-left: 12px;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms;
+  -webkit-transition: margin 500ms, -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+  transition: margin 500ms, -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+  transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms;
+  transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms, -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+}

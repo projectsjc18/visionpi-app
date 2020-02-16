@@ -1,0 +1,236 @@
+<div class="account-register-container-principal">
+  <header class="account-register-header">
+    <h3></h3>
+    <h3>Account Register</h3>
+  </header>
+  <mat-divider></mat-divider>
+  <form class="" [formGroup]="accountRegisterForm">
+    <h5>Account Information</h5>
+    <div class="account-register-container">
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <div class="account-register-search">
+              <input type="search" id="search" placeholder="Search Account or User ..." formControlName="accountSearch" >
+              <button class="icon" (click)="searchAccount(accountSearch.value)"><mat-icon>search</mat-icon></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Account" formControlName="account" class="account-register-input">
+          </div>
+          <!--<div *ngIf="user.invalid && (user.dirty || user.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="user.errors.required">
+              User is required.
+            </div>
+          </div>-->
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="User" formControlName="user" class="account-register-input">
+          </div>
+          <!--<div *ngIf="user.invalid && (user.dirty || user.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="user.errors.required">
+              User is required.
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+    <div class="account-register-container">
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Description" formControlName="description" class="account-register-input" maxlength="25">
+          </div>
+          <div *ngIf="description.invalid && (description.dirty || description.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="description.errors.required">
+              Description is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <div class='vertical-align'>
+              <div class='btns'>
+                <label>
+                  <span class='btn user-register-paragraph'>Status</span>
+                </label>
+                <label>
+                  <input type='radio' [value]="true" formControlName="status">
+                    <span class='btn'>Active</span>
+                </label>
+                <!--<label>
+                  <input type='radio' [value]="inactivo" formControlName="status">
+                    <span class='btn'>Inactivo</span>
+                </label>-->
+              </div>
+            </div>
+          </div>
+          <!--<div *ngIf="user.invalid && (user.dirty || user.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="user.errors.required">
+              User is required.
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+    <h5>Fleet Information</h5>
+    <div class="account-register-container" formGroupName="fleet">
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Identifier" formControlName="identifier" class="account-register-input" maxlength="10">
+          </div>
+          <div *ngIf="identifier.invalid && (identifier.dirty || identifier.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="identifier.errors.required">
+              Identifier is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Name" formControlName="name" class="account-register-input" maxlength="25">
+          </div>
+          <div *ngIf="name.invalid && (name.dirty || name.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="name.errors.required">
+              Name is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Description" formControlName="fleetDescription" class="account-register-input" maxlength="25">
+          </div>
+          <div *ngIf="fleetDescription.invalid && (fleetDescription.dirty || fleetDescription.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="fleetDescription.errors.required">
+              Fleet description is required.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h5>Route Information</h5>
+    <div class="account-register-container" formGroupName="route">
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Route Identifier" formControlName="routeIdentifier" class="account-register-input" maxlength="10">
+          </div>
+          <div *ngIf="routeIdentifier.invalid && (routeIdentifier.dirty || routeIdentifier.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="routeIdentifier.errors.required">
+              Route Identifier is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Route Name" formControlName="routeName" class="account-register-input" maxlength="25">
+          </div>
+          <div *ngIf="routeName.invalid && (routeName.dirty || routeName.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="routeName.errors.required">
+              Route Name is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Route Description" formControlName="routeDescription" class="account-register-input" maxlength="25">
+          </div>
+          <div *ngIf="routeDescription.invalid && (routeDescription.dirty || routeDescription.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="routeDescription.errors.required">
+              Route description is required.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h5>Vehicle Information</h5>
+    <div class="account-register-container" formGroupName="vehicle">
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Vehicle Identifier" formControlName="vehicleIdentifier" class="account-register-input" maxlength="10">
+          </div>
+          <div *ngIf="vehicleIdentifier.invalid && (vehicleIdentifier.dirty || vehicleIdentifier.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="vehicleIdentifier.errors.required">
+              Vehicle Identifier is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Brand" formControlName="brand" class="account-register-input" maxlength="25">
+          </div>
+          <div *ngIf="brand.invalid && (brand.dirty || brand.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="brand.errors.required">
+              Brand is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Model" formControlName="model" class="account-register-input" maxlength="25">
+          </div>
+          <div *ngIf="model.invalid && (model.dirty || model.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="model.errors.required">
+              Model is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Year" formControlName="year" class="account-register-input" maxlength="10">
+          </div>
+          <div *ngIf="year.invalid && (year.dirty || year.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="year.errors.required">
+              Year is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-register-column">
+        <div class="account-register-container">
+          <div class="account-register-column">
+            <input matInput placeholder="Operator" formControlName="operator" class="account-register-input" maxlength="10">
+          </div>
+          <div *ngIf="operator.invalid && (operator.dirty || operator.touched)" class="account-register-column account-register-input-error">
+            <div *ngIf="operator.errors.required">
+              Operator is required.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="account-register-container">
+      <div class="account-register-column">
+
+      </div>
+      <div class="account-register-column account-register-column-items-end">
+        <button class="button button-save" [disabled]="!accountRegisterForm.valid" (click)="registerAccount()">Save</button>
+        <button class="button button-cancel">Cancel</button>
+      </div>
+    </div>
+  </form>
+</div>

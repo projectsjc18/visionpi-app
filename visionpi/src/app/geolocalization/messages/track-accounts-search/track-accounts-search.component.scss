@@ -1,0 +1,139 @@
+/* ---------------- CONTAINERS ------------------- */
+.track-accounts-search-container-principal {
+  background: transparent;
+  /*box-shadow: 0 4px 30px rgba(0,0,0,.5);
+  border-radius: 3px;*/
+}
+
+.track-accounts-search-container {
+  font: 100 'Montserrat';
+  /*margin: 5px 2%;*/
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+}
+
+.track-accounts-search-column {
+  text-align: start;
+  align-self: center;
+  -webkit-flex: 3 1 60%;
+          flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+}
+
+.track-accounts-search-column-items-end {
+  text-align: end;
+}
+
+.track-accounts-search-header {
+  display: grid;
+  grid-template-columns: 0px auto 36px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.track-accounts-search-vehicle-container {
+  background: #1f2229;
+  margin: 1em;
+  /*padding: 15px;*/
+  border-radius: 3px;
+  box-shadow: 0 4px 30px rgba(0,0,0,.5);
+}
+
+/* ------------- h1 - h5 ---------------- */
+
+h2 {
+  font-weight: 100;
+  font-size: larger;
+  color: #ffff;
+  margin: 0px 3%;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: larger;
+  color: #ffff;
+}
+
+h5 {
+  margin: 5px 2.5%;
+  font-weight: 100;
+  color: #ffff;
+}
+
+.mat-form-field {
+  font-family: 'Monserrat', 'Open Sans', Arial, sans-serif;
+  font-weight: 100;
+  width: 100%;
+}
+
+/* ------------- Selects ----------------- */
+.track-accounts-search-select-container {
+  margin: 5px;
+}
+
+.mat-select-arrow {
+  color: #ffff;
+}
+
+.mat-form-field-type-mat-select .mat-form-field-label {
+  font-family: 'Monserrat', 'Open Sans', Arial, sans-serif;
+  font-weight: 100;
+  color: #ffff;
+}
+
+.track-accounts-search-select-panel.mat-select-panel {
+  font-family: 'Monserrat', 'Open Sans', Arial, sans-serif;
+  font-weight: 100;
+  color: #fff;
+  background: #1C3144;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: #126db5;
+}
+
+.mat-select-panel .mat-optgroup-label, .mat-select-panel .mat-option {
+  color: #ffff;
+}
+
+.mat-select-value {
+  color: #ffff;
+}
+
+/* ------------------ Buttons ---------------- */
+.track-accounts-search-button-search {
+  background: transparent;
+  border: none;
+  box-shadow: 0 4px 30px rgba(0,0,0,.5);
+}
+
+.mat-icon {
+  color: #fafafa;
+}
+
+.mat-bottom-sheet-container {
+  background: #1f2229;
+}
+
+/* ------------- Media Queries --------------- */
+/* Small screens */
+@media all and (max-width: 500px) {
+  .track-accounts-search-container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+    /*-webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;*/
+  }
+
+  .track-accounts-search-column {
+    width: 100%
+  }
+
+  .mat-form-field {
+    width: 100%;
+  }
+}

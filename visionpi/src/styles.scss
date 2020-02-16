@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%;}
+body { margin: 0; font-family: "Montserrat", Roboto, "Helvetica Neue", sans-serif; background: #1C3144;}
+mat-dialog-container#register-success-message {
+  font-family: 'Montserrat';
+  font-weight: 100;
+  background: #272626;
+  border: 3px solid #262626;
+  border-radius: 5px;
+  color: #fafafa;
+}
+
+.mat-bottom-sheet-container {
+  background: #1f2229;
+}

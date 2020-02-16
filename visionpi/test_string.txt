@@ -1,0 +1,224 @@
+C:\Program Files\Java\jdk1.8.0_221\bin\java.exe -Dfile.encoding=windows-1252 -Duser.country=MX -Duser.language=es -Duser.variant -cp C:\Develop
+ment_Rappi\Service_Payment_Test\rappi-pay-ms\build\classes\java\main;%AMB_PATH%\rappi-pay-ms\build\classes\kotlin\main;C:\Development_Rappi\Service_Payment
+_Test\rappi-pay-ms\build\resources\main;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\utils\0.0.9.2-SNAPSHOT\adceaad01700e72e158e782377b7f6a2b7422379\utils-0.0.9.2-SNA
+PSHOT.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-jdbc\2.0.0.M2\f3354c29dd6054f5789d4465bc4aae225974d521\spring-boot-starter-j
+dbc-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\spring-redis\0.0.0.7-SNAPSHOT\6a10d4ce53852e4e00ae9062899f391f4c4cb170\spring-redis-0.0.0.7-SNAPSHOT.jar
+;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\rappi-pay-utils\0.0.1.66-SNAPSHOT\d7a8b44326f2214b18cc46687d662eaafc2ce765\rappi-pay-utils-0.0.1.66-SNAPSHOT.jar;C:\User
+s\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\rappi-pay-notification-client\0.0.0.4-SNAPSHOT\b520b453b224b7d4e7974ddd622df181b43f6fab\rappi-pay-notification-client-0.0.0.4-SN
+APSHOT.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\rappi-pay-models\0.0.0.91-SNAPSHOT\27fcc4f150f558b2139a21fcc5e332ae20bc15b7\rappi-pay-models-0.0.0.91-SNAPSHOT
+.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\kafka\0.0.1-SNAPSHOT\232c559640512b9c21a9891aae31bf34947cf744\kafka-0.0.1-SNAPSHOT.jar;C:\Users\Jorge Cruz\.gradle\c
+aches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-web\2.0.0.M2\86ccd16524e151f668dc461a2b20b2f152d0f02d\spring-boot-starter-web-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gra
+dle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-data-redis\2.0.0.M2\c0270a37d0ffb9a8af29edfc0e30e53316c81d86\spring-boot-starter-data-redis-2.0.0.M2.jar;C:\Us
+ers\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.cloud\spring-cloud-starter-sleuth\2.0.0.M2\3f7b73ddbdc5f91e6493cf787874ef5dc341e7f4\spring-cloud-starter-sleuth-2.0.
+0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.cloud\spring-cloud-starter\2.0.0.M2\eac89234f626476eda15d59bd657ff45395354e0\spring-cloud-starter-2.0.
+0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-aop\2.0.0.M2\f8dae662a4feaecea31dacce35e9b19d2afa152e\spring-boot-starter-aop
+-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\2.0.0.M2\3399a3da81bc6d42186080ea77dc29c1daf9a82b\spring-boot-starter-2.
+0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-jetty\2.0.0.M2\c1ee13b6d862ad7a05556c89ebec3ac492d1ed2\spring-boot-starter-
+jetty-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\exceptions\0.0.2-SNAPSHOT\39b9046881c40f14afea36f3577641adfe9247ad\exceptions-0.0.2-SNAPSHOT.jar;C:\Us
+ers\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre8\1.2.10\71c98c16b4bed3f754c6c398f9da8300ecb0a669\kotlin-stdlib-jre8-1.2.10.jar;C:\Users\Jorge Cru
+z\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-kotlin\2.9.0.pr3\163fa175f91691942f11d8630bc6ca5c7d392a61\jackson-module-kotlin-2.9.0.pr3.jar;C:\Users\Jo
+rge Cruz\.gradle\caches\modules-2\files-2.1\com.rappi\rappi-pay-users-client\0.0.0.6-SNAPSHOT\e62c4d6a2581244f50c32232fef9a2c9900721a2\rappi-pay-users-client-0.0.0.6-SNAPSHOT.jar;C:\User
+s\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\1.2.10\19bc012f8c4cd6b705bd6512263777cc19bcf259\kotlin-reflect-1.2.10.jar;C:\Users\Jorge Cruz\.gradle\
+caches\modules-2\files-2.1\com.sendgrid\sendgrid-java\4.1.0\2f460d81aa8a80d748edbc736255c10d6a5d0a71\sendgrid-java-4.1.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.se
+ndgrid\java-http-client\4.1.0\23eb45585bc6c58cd261eb1cf0045020118a80de\java-http-client-4.1.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-java-sdk-s3\1.1
+1.495\66f98e528299b7f36a218f136f1ee2e3d9c3fcc5\aws-java-sdk-s3-1.11.495.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-java-sdk-kms\1.11.495\5758bc286cd3c9b
+f7f21be2d4ab75a452c6ec141\aws-java-sdk-kms-1.11.495.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-java-sdk-core\1.11.495\c8436d55808265b82b86b74c7a42d6d8b8
+45b07c\aws-java-sdk-core-1.11.495.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.cloud\spring-cloud-sleuth-core\2.0.0.M2\dfb0f4d01699dcc08e3b6e6e3d2b8373f
+3790014\spring-cloud-sleuth-core-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.cloud\spring-cloud-commons\2.0.0.M2\f6ce6779ce74e74f618ba940720a8
+40b6cc5e797\spring-cloud-commons-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.apollographql.apollo\apollo-gradle-plugin\1.0.0-alpha\16ea3d343105353e1c021fa2428
+563af04f39a49\apollo-gradle-plugin-1.0.0-alpha.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.build\gradle\2.3.1\b97ef574ab9cfc9f87da7e89e324a485c14ef73f\gr
+adle-2.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.build\gradle-core\2.3.1\904063a34af4101cb95e5dd13d7a7a3a3b8f42ac\gradle-core-2.3.1.jar;C:\Users\Jo
+rge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.build\builder\2.3.1\8a95405a1793b77dc01295157cbb5498558a4ae1\builder-2.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\
+files-2.1\com.android.tools.build\manifest-merger\25.3.1\4d7a167acd3fdded590e865b5ea329eb0df2f2f0\manifest-merger-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.an
+droid.tools.lint\lint\25.3.1\17814a2d82a264c2dd3aaf8a7974e503b874769f\lint-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.lint\lint-checks\25.3.1\d4b
+abd5390e2ec94de16ba32289ebd2091d985da\lint-checks-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.lint\lint-api\25.3.1\aa1323be5f5fc3827c1baa398de80c5
+40f20846c\lint-api-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools\sdk-common\25.3.1\842811d1fa2a491f4c44299284735bcb0b774d31\sdk-common-25.3.1.jar;C:
+\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools\sdklib\25.3.1\880fab170c4727e0d00f1310acb814bcfed4bdca\sdklib-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules
+-2\files-2.1\org.apache.httpcomponents\httpmime\4.5.3\889fd6d061bb63b99dd5c6aba35a555ae863de52\httpmime-4.5.3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.httpco
+mponents\httpclient\4.5.2\733db77aa8d9b2d68015189df76ab06304406e50\httpclient-4.5.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.flywaydb\flyway-core\4.2.0\1cbe078e49e8
+1ef13b5eafd54552feac0a55c19e\flyway-core-4.2.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.kafka\spring-kafka\2.0.0.M2\d3713c35da7145c6b42ece15195b4a46
+3687ed48\spring-kafka-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.springfox\springfox-swagger2\2.4.0\c6919bdec913eb5e8204a7757cf86f34201f6aac\springfox-swagger
+2-2.4.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.springfox\springfox-swagger-ui\2.4.0\1205fbe70fbbcf6c87b3059a45772e56d8ce6615\springfox-swagger-ui-2.4.0.jar;C:\User
+s\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.github.java-json-tools\json-schema-validator\2.2.10\bc3206079bdea41d4f751eb32b73ce2c9cdcea7b\json-schema-validator-2.2.10.jar;C:\Users
+\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.googlecode.libphonenumber\libphonenumber\5.5\396b88c5437090abca48ba681991aa625460a0ca\libphonenumber-5.5.jar;C:\Users\Jorge Cruz\.gradl
+e\caches\modules-2\files-2.1\org.springframework\spring-jms\5.0.0.RC2\480878faf2e3012cebaa5ffdb0bee96fe63ee2a0\spring-jms-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files
+-2.1\com.siftscience\sift-java\2.4.0\d4d6df3fa7549583a8088d16b7403461946de20b\sift-java-2.4.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.github.glistman\museragent\1.
+0.2\1b2ef2455fa345c1a5a80d87ec424bd4ea011435\museragent-1.0.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.newrelic.agent.java\newrelic-api\4.2.0\eb7c1d801458c067416750
+37d71610812d829aa5\newrelic-api-4.2.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.poi\poi\4.0.1\d8eaa341687a7dc48048d964d0d53238959ca9b5\poi-4.0.1.jar;C:\Users\
+Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.lettuce\lettuce-core\5.0.0.M2\4d8a0f54aab2aeeec7eab51b57f4b0c91f80ff94\lettuce-core-5.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modul
+es-2\files-2.1\io.projectreactor\reactor-core\3.3.0.RELEASE\4824f980e5696e95289d5fb0de62e3d34508b358\reactor-core-3.3.0.RELEASE.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1
+\org.postgresql\postgresql\42.1.1\8a0b76d763f5382d6357c412eeb14970ba4405f3\postgresql-42.1.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-bo
+ot-autoconfigure\2.0.0.M2\c8c60afb8c398b38a2e79f1ebb5112e2b545a401\spring-boot-autoconfigure-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\
+spring-boot\2.0.0.M2\8a6753eff5153f602f594c80d61349a042987cc3\spring-boot-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter
+-logging\2.0.0.M2\a6da174939d15c8db8c5b2eebdfc7ab58522c1d\spring-boot-starter-logging-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jdbc\
+5.0.0.RC2\1c5d0bca6067625fcb9bcb5ba06bd8410a845e29\spring-jdbc-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\5.0.0.RC2\4e2c752a8f
+5e965d029e7ff813c5eb74fcadd373\spring-webmvc-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\5.0.0.RC2\4aeabff4139242d7bfb51a31292f53c
+a0eec1e45\spring-web-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-messaging\5.0.0.RC2\e113d9fe8601f94afcae022afdea63cc3d684812\spring-m
+essaging-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.retry\spring-retry\1.2.0.RELEASE\4e2b3ea37df07ef6fd905696f1aa5d50128c2782\spring-retry-1
+.2.0.RELEASE.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-redis\2.0.0.M4\e35e010eaa980a573b34d292d30d6b0ad80a4845\spring-data-redis-2.0
+.0.M4.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.springfox\springfox-swagger-common\2.4.0\8fe40ed5b97575890c82a04511e57f4c089c9a7b\springfox-swagger-common-2.4.0.jar;C
+:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.springfox\springfox-spring-web\2.4.0\3cbfea59cc9eec05f278e68d1cbf85de98bab563\springfox-spring-web-2.4.0.jar;C:\Users\Jorge Cruz\
+.gradle\caches\modules-2\files-2.1\io.springfox\springfox-schema\2.4.0\5ccdc3f47cf6b888bcf8fd2c127a9dc7b68057d7\springfox-schema-2.4.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\fi
+les-2.1\io.springfox\springfox-spi\2.4.0\c822599f794e24f3b9350cde430e848d80032306\springfox-spi-2.4.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.springfox\springfox-co
+re\2.4.0\e11854b8ede27b6eafa56c29e08e6a0e7ac4c278\springfox-core-2.4.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.plugin\spring-plugin-metadata\1.2.0.
+RELEASE\97223fc496b6cab31602eedbd4202aa4fff0d44f\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.plugin\spring-plugin-
+core\1.2.0.RELEASE\f380e7760032e7d929184f8ad8a33716b75c0657\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-da
+ta-keyvalue\2.0.0.M4\d689c4db4f044c9f3d15af73bfb441ffa4735029\spring-data-keyvalue-2.0.0.M4.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context-
+support\5.0.0.RC2\392e54c1dca15563fb1c4f54dbbb96ad53a00edf\spring-context-support-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\
+5.0.0.RC2\9a2d95a1c4fcd6165cfef6ebdc794e1af855df9b\spring-context-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\5.0.0.RC2\96ec85352a
+35adb30a4fef14250403fd77721bbe\spring-aop-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-tx\5.0.0.RC2\e2b2459ea16d2a813f668aa0c13c54ab17d
+4bd47\spring-tx-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-oxm\5.0.0.RC2\26566853083e1e71ed7287011c93d7afdfc523b9\spring-oxm-5.0.0.RC
+2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-commons\2.0.0.M4\e29f6d0126a87426a4381e2042557c8e736e21ec\spring-data-commons-2.0.0.M4.j
+ar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\5.0.0.RC2\886e17ef19f0078057e30382eb470e034a3e16e7\spring-beans-5.0.0.RC2.jar;C:\Users\Jorge Cr
+uz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\5.0.0.RC2\c659eeb2b732ef5a3da35a2642f08a5dea33905a\spring-expression-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle
+\caches\modules-2\files-2.1\org.springframework\spring-core\5.0.0.RC2\dea9b3be9b30cb8f821f79035bd1efd1896dc372\spring-core-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\file
+s-2.1\org.yaml\snakeyaml\1.18\e4a441249ade301985cb8d009d4e4a72b85bf68e\snakeyaml-1.18.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-servlets\9.4.6.v2
+0170531\5adddf5a90f8be30eadf5ca92ae6ac5ffdab54c3\jetty-servlets-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\javax-websocket-ser
+ver-impl\9.4.6.v20170531\df28c3f3347bca9425811843196cebae3e66ce20\javax-websocket-server-impl-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty
+\jetty-annotations\9.4.6.v20170531\6ccc93bb46c6014c7b383efeb14c1233ecb081d9\jetty-annotations-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty
+\jetty-plus\9.4.6.v20170531\8b6922eb2746ffe801457d400de9e99e21c491b5\jetty-plus-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-webapp\
+9.4.6.v20170531\3e64618f88061ecd5538e6092f44e7410609e41c\jetty-webapp-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-ser
+ver\9.4.6.v20170531\3df260d52e941345ad40498bb23307ec3e9c2683\websocket-server-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.mortbay.jasper\apache-el\8.5.
+9.1\6ca0976b16fe81da64f2b44473dcfe30a92b3e92\apache-el-8.5.9.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.2.10\ea1aafdd031ba2604
+b06cb89a97da397b7aff520\kotlin-stdlib-jre7-1.2.10.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.apollographql.apollo\apollo-compiler\1.0.0-alpha\603b029a7c56e80eae41e470
+471b73173df56c76\apollo-compiler-1.0.0-alpha.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.2.10\b9bf650516989595a5390e5a54181e16347208ac
+\kotlin-stdlib-1.2.10.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.github.java-json-tools\json-schema-core\1.2.10\12f7cbebacca86d6358dabcdcf63f2bc750387b8\json-schema-c
+ore-1.2.10.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.github.java-json-tools\jackson-coreutils\1.9\28586d71187cb3df89436e6851f846260aa8cf63\jackson-coreutils-1.9.jar;
+C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.github.fge\uri-template\0.9\ab1ad5804d3c7d640f21059085df5be340e97929\uri-template-0.9.jar;C:\Users\Jorge Cruz\.gradle\caches\mo
+dules-2\files-2.1\com.android.tools.build\gradle-api\2.3.1\9cab8df3586e6a684a230a129135a60a4944ad96\gradle-api-2.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.androi
+d.databinding\compilerCommon\2.3.1\1d8365b545c283fa608b826645e67bbc8aff50ef\compilerCommon-2.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.build\builde
+r-test-api\2.3.1\c2f04f9a698bc8a28e9a67aae3941cd54fb4c4b\builder-test-api-2.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.ddms\ddmlib\25.3.1\6c6eaf8af4
+236eb77f57544e7924e9ef3ac0ee53\ddmlib-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.analytics-library\tracker\25.3.1\de0a977af80179c470e3e987a74ceed
+2e90afb7\tracker-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.analytics-library\shared\25.3.1\1584ce1ae1c9ee4ac6440b2339c0c535f4f108cf\shared-25.3.
+1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.layoutlib\layoutlib-api\25.3.1\8a4261600d25211e37946e39bc967a243e53619e\layoutlib-api-25.3.1.jar;C:\Users\J
+orge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools\dvlib\25.3.1\7d0057cf4af74c0284efee38651b74a1c68ffc00\dvlib-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2
+.1\com.android.tools\repository\25.3.1\91868b5361b26689e9aa39a9d8138602e11707bd\repository-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools\common\25.3
+.1\49adbc468eb6963f11ceac91adca45f5b3f712ca\common-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.google.jimfs\jimfs\1.1\8fbd0579dc68aba6186935cc1bee21d2f3e7ec1c\j
+imfs-1.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.external.lombok\lombok-ast\0.2.3\528b6f8bde3157f17530aa366631f2aad2a6cf9\lombok-ast-0.2.3.jar;C:\Use
+rs\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.
+1\org.aspectj\aspectjweaver\1.8.10\e198c5fee28988c355f74e06461614eae36b2032\aspectjweaver-1.8.10.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.
+1\2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0\gson-2.8.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-json\2.0.0.M2\ca88f0f3f8a140f
+ffa514d76768f9e4263ce134c\spring-boot-starter-json-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.amazonaws\jmespath-java\1.11.495\45c34ebaf6fa3a4a22b906a1ccd5ac
+043cd3d164\jmespath-java-1.11.495.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.9.0.pr3\5f04ac605362d21afdc5120a27cbb4
+9b1af4db4e\jackson-datatype-jdk8-2.9.0.pr3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.9.0.pr3\fef539629221ed848ca
+2d0b8218776e5fef3a1df\jackson-datatype-jsr310-2.9.0.pr3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-parameter-names\2.9.0.pr3\7
+b63ca9c6f781ab1a270b842b61bcc89d4f6cd96\jackson-module-parameter-names-2.9.0.pr3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.
+9.0.pr3\41a8d484e0fe00102724d03090503ad212ee3c20\jackson-databind-2.9.0.pr3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.swagger\swagger-models\1.5.6\e5c36321b8bbd1e4f10
+858b5ceededdeeb4844e1\swagger-models-1.5.6.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.9.0.pr3\dede10be4aaaa6893561372dc51
+96644268997b7\jackson-annotations-2.9.0.pr3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.6\e3fd8ced1f52c7574af952e2e6da0df8df08eb82\h
+ttpcore-4.4.6.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar;C:\Users\Jor
+ge Cruz\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\f
+iles-2.1\com.zaxxer\HikariCP\2.6.2\c5bee7c2f8bf49d4d69f22bc85aaa2ad4a60cb83\HikariCP-2.6.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-validator\5.
+4.1.Final\fc71e53520e1030d278f682b796c88265b94c699\hibernate-validator-5.4.1.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\redis.clients\jedis\2.9.0\292bc9cc26553acd3c
+ccc26f2f95620bf88a04c2\jedis-2.9.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka-clients\0.10.2.0\c20571ff756fcf8f4a7f76fc7b23707a4c14a67d\kafka-clien
+ts-0.10.2.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\2.9.0.pr3\cae3ef64dff8e243200ede9a625bc1148acde2bf\jackson
+-dataformat-cbor-2.9.0.pr3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.9.0.pr3\f9c6d5cfde33c589596d1f43200ec052a2c7c9c0\jackson-c
+ore-2.9.0.pr3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.swagger\swagger-annotations\1.5.6\feb5c3bbf4d4c16b24bcccef23d234451e95abf3\swagger-annotations-1.5.6.jar;C:\Us
+ers\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.3\864c8e370a691e343210cc7c532fc198cee460d8\classmate-1.3.3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\
+files-2.1\org.slf4j\log4j-over-slf4j\1.7.25\a87bb47468f47ee7aabbd54f93e133d4215769c3\log4j-over-slf4j-1.7.25.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-s
+lf4j\1.7.25\af5364cd6679bfffb114f0dec8a157aaa283b76\jul-to-slf4j-1.7.25.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8
+028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.
+25.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.apollographql.apollo\apollo-runtime\1.0.0-alpha\88fd46e89c1df0653bec10d6b6e644cb7d3ce1af\apollo-runtime-1.0.0-alpha.jar;
+C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.1\4d060ca3190df0eda4dc13415532a12e15ca5f11\okhttp-3.8.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modu
+les-2\files-2.1\com.squareup.moshi\moshi\1.6.0\e4c08f1491bbf547b035e2a47f80983e08699ebc\moshi-1.6.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14
+.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\javax.mail\mailapi\1.4.3\124600e35d9031da50e5f67661ffa741541f8f6a\maila
+pi-1.4.3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.9\f7b520c458572890807d143670c9b24f4de90897\joda-time-2.9.9.jar;C:\Users\Jorge Cruz\.gradle\cac
+hes\modules-2\files-2.1\com.nytimes.android\cache\2.0.2\dd9712ca1fffcb2d5dfbe2878c1b788be9bc7d76\cache-2.0.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.github.fge\msg
+-simple\1.1\f261263e13dd4cfa93cc6b83f1f58f619097a2c4\msg-simple-1.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.github.fge\btf\1.2\9e66651022eb86301b348d57e6f59459effc
+343b\btf-1.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar;C:\Users\Jorge Cru
+z\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\file
+s-2.1\org.apache.commons\commons-collections4\4.2\54ebea0a5b653d3c680131e73fe807bb8f78c4ed\commons-collections4-4.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.
+commons\commons-math3\3.6.1\e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf\commons-math3-3.6.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.moowork.gradle\gradle-node-plugin\
+1.0.0\b59534b6ea3ba199fcfc69f215b4c50bf82db817\gradle-node-plugin-1.0.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d980
+05ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jcl\5.0.0.RC2\1ba6d7244261132f93c13299b7ed0fed3d
+db585f\spring-jcl-5.0.0.RC2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-continuation\9.4.6.v20170531\7a3e4ec4d2b7d629707d8e3107bb5ee31f7d2158\jetty
+-continuation-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\javax-websocket-client-impl\9.4.6.v20170531\89157efdf0a2d305276b622e5
+1722275eff28060\javax-websocket-client-impl-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-client\9.4.6.v20170531\7abf96
+c2a2afa5966fea35375fc0280e1365b8eb\websocket-client-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-client\9.4.6.v20170531\ec4139632f33
+8738124e1d77824e3b73be1c6f5f\jetty-client-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-servlet\9.4.6.v20170531\7d302b454433ee1b97997
+61c23d0323542f2525b\jetty-servlet-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-security\9.4.6.v20170531\6c4cdac99130d887abc6fa6645ad
+cd033f763d02\jetty-security-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-server\9.4.6.v20170531\afda653f00267fb8b501cafd1cf5cdd16156
+02a2\jetty-server-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-http\9.4.6.v20170531\6c2dd034fc4128ea65f2d0199473cbfb80aeb428\jetty-h
+ttp-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-common\9.4.6.v20170531\32ddd92bdb1b9351369b32d770667706c1a7fb67\webso
+cket-common-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-io\9.4.6.v20170531\69cdaaac75739eff9ccb4c61f87e4fa3ba280f9\jetty-io-9.4.6.v
+20170531.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-xml\9.4.6.v20170531\25818a656163364b89966fbfdc6f43a8d8b65d2a\jetty-xml-9.4.6.v20170531.jar;C:\
+Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-util\9.4.6.v20170531\78628ec5cfafbb5b8085342322515c65fadfa1cc\jetty-util-9.4.6.v20170531.jar;C:\Users\Jorge Cr
+uz\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-servlet\9.4.6.v20170531\6f4f1a91e61cc15060ea0beecc7a5d035c1d65f6\websocket-servlet-9.4.6.v20170531.jar;C:\User
+s\Jorge Cruz\.gradle\caches\modules-2\files-2.1\javax.websocket\javax.websocket-api\1.0\fc843b649d4a1dcb0497669d262befa3918c7ba8\javax.websocket-api-1.0.jar;C:\Users\Jorge Cruz\.gradle\c
+aches\modules-2\files-2.1\com.apollographql.apollo\apollo-api\1.0.0-alpha\13ac44de0572554345442bfd7be93cdf8d76a6a4\apollo-api-1.0.0-alpha.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2
+\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.boot\sp
+ring-boot-starter-tomcat\2.0.0.M2\bcc871e0eaa9005d9d71245eeada870f147140ce\spring-boot-starter-tomcat-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\javax.validation
+\validation-api\1.1.0.Final\8613ae82954779d518631e05daa73a6a954817d5\validation-api-1.1.0.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging
+\3.3.1.Final\c46217ab74b532568c0ed31dc599db3048bd1b67\jboss-logging-3.3.1.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-pool2\2.4.2\e5f4f28f
+19d57716fbc3989d7a357ebf1e454fea\commons-pool2-2.4.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\net.jpountz.lz4\lz4\1.3.0\c708bb2590c0652a642236ef45d9f99ff842a2ce\lz4-1.3
+.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.xerial.snappy\snappy-java\1.1.2.6\48d92871ca286a47f230feb375f0bbffa83b85f6\snappy-java-1.1.2.6.jar;C:\Users\Jorge Cruz\.
+gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\2.8.9\1afb35b2d77d40567756c379e54c18da3574a96e\mockito-core-2.8.9.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\or
+g.mozilla\rhino\1.7.7.1\2e8f8ebc42e5df8bcef5c78dd44387176c9aa98e\rhino-1.7.7.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\javax.activation\activation\1.1\e6cb541461c2834b
+dea3eb920f1884d1eb508b50\activation-1.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\software.amazon.ion\ion-java\1.0.2\ee9dacea7726e495f8352b81c12c23834ffbc564\ion-java-1.
+0.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.12.Final\cce3dcbfa9f0832bc446b003dfb64fd7d8649655\netty-handler-4.1.12.Final.jar;C:\Users\Jorge
+Cruz\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.12.Final\5432f42ec70c623be5dd122a9ad358b704e0338f\netty-codec-4.1.12.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules
+-2\files-2.1\io.netty\netty-transport\4.1.12.Final\147199f4f78f12f04964a440e7b4acf5cc01bf66\netty-transport-4.1.12.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.net
+ty\netty-buffer\4.1.12.Final\f288fd50a2d2b58bdc51591d584aeaf8b1c10378\netty-buffer-4.1.12.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.12.
+Final\fbef9e485ad1aeec284124a357bf78dc3de26f11\netty-resolver-4.1.12.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.12.Final\e98289fb3e657657b
+69d7c024dd93cf08ac7df70\netty-common-4.1.12.Final.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.squareup\javapoet\1.8.0\e858dc62ef484048540d27d36f3ec2177a3fa9b1\javapoet
+-1.8.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\Jorge Cruz\.g
+radle\caches\modules-2\files-2.1\org.eclipse.jetty.websocket\websocket-api\9.4.6.v20170531\67e88613850da0aa0874e9b6bc2d7dd812968346\websocket-api-9.4.6.v20170531.jar;C:\Users\Jorge Cruz\
+.gradle\caches\modules-2\files-2.1\javax.servlet\javax.servlet-api\3.1.0\3cd63d075497751784b2fa84be59432f4905bf7c\javax.servlet-api-3.1.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2
+\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.ow2.
+asm\asm-analysis\5.0.4\51f5031331a56c462a3cc5126e21ab65958759a9\asm-analysis-5.0.4.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\5.1\25d8a575034dd9cf
+cb375a39b5334f0ba9c8474e\asm-commons-5.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\5.1\87b38c12a0ea645791ead9d3e74ae5268d1d6c34\asm-tree-5.1.jar;C:\
+Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\5.1\5ef31c4fe953b1fd00b8a88fa1d6820e8785bb45\asm-5.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.ap
+ache.tomcat.embed\tomcat-embed-websocket\8.5.15\a92b066b0ea9ee1cb05b7d5e4bfed4ad8898f741\tomcat-embed-websocket-8.5.15.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apac
+he.tomcat.embed\tomcat-embed-core\8.5.15\f197a93ae66212767b004fd93d7a1a8ea62bc3fa\tomcat-embed-core-8.5.15.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.em
+bed\tomcat-embed-el\8.5.15\e4000e5386056eeebb43bf71e7d30c58d2473166\tomcat-embed-el-8.5.15.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.cloud\spring-clo
+ud-context\2.0.0.M2\3316191b1d6aaad02357c2a94ff3750b79e27baf\spring-cloud-context-2.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.security\spring-
+security-rsa\1.0.5.RELEASE\31bd1111ada2f455eb0f492ed09e39deda18ca99\spring-security-rsa-1.0.5.RELEASE.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjrt\1.8
+.10\1a14fe9e912f6e8bdbb5429b78b4090d8b47bc1\aspectjrt-1.8.10.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.6.14\871c3e49dc6183d0d361601c2f1d11abb1
+a6b48c\byte-buddy-1.6.14.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.6.14\ba1e5ba3a84fb2fbf2f4de9138df19665eec4d59\byte-buddy-agent-1.6.14
+.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.5\612ecb799912ccf77cba9b3ed8c813da086076e9\objenesis-2.5.jar;C:\Users\Jorge Cruz\.gradle\caches\modu
+les-2\files-2.1\javax.annotation\jsr250-api\1.0\5025422767732a1ab45d93abfea846513d742dcf\jsr250-api-1.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.build
+\transform-api\2.0.0-deprecated-use-gradle-api\85bee1acea9e27152b920746c68133b30b11431\transform-api-2.0.0-deprecated-use-gradle-api.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\file
+s-2.1\net.sf.proguard\proguard-gradle\5.3.2\bd6f515c9403fe7995948d76cccf881c83dc4610\proguard-gradle-5.3.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.jacoco\org.jacoc
+o.report\0.7.5.201505241946\cb1ac5562a45c98cd7b774452f3e8b867b71cd65\org.jacoco.report-0.7.5.201505241946.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.jacoco\org.jacoco
+.core\0.7.5.201505241946\1ea906dc5201d2a1bc0604f8650534d4bcaf4c95\org.jacoco.core-0.7.5.201505241946.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools.analytic
+s-library\protos\25.3.1\aa6596c0800b85445105c28dd50a1489c4ffdbb4\protos-25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.0.0\6d325aa7
+c921661d84577c0a93d82da4df9fa4c8\protobuf-java-3.0.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.antlr\antlr\3.5.2\c4a65c950bfc3e7d04309c515b2177c00baf7764\antlr-3.5.2
+.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.springframework.security\spring-security-crypto\5.0.0.M2\32608f5adc53d1d64336e5c9aa7c13d798e2e3b8\spring-security-crypto-5
+.0.0.M2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcpkix-jdk15on\1.56\4648af70268b6fdb24674fb1fd7c1fcc73db1231\bcpkix-jdk15on-1.56.jar;C:\Users\Jorge Cr
+uz\.gradle\caches\modules-2\files-2.1\com.android.tools.build\builder-model\2.3.1\100342dc691f48333bd2af73ebb58fcabe248c4f\builder-model-2.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modu
+les-2\files-2.1\com.android.tools.jack\jack-api\0.13.0\818c9a942281e89dabab2fe97adbd8bdb9d275e2\jack-api-0.13.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.too
+ls.jill\jill-api\0.10.0\7dfd6360ae4af1e171ec67b92e0cf065d59eef19\jill-api-0.10.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.5.0\81241ff7078ef14f
+42ea2a8995fa09c096256e6b\javawriter-2.5.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.56\a153c6f9744a3e9dd6feab5e210e1c9861362ec7\bcprov-
+jdk15on-1.56.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.eclipse.jdt.core.compiler\ecj\4.6.1\5555607add54eb79c5a0729134e663fe2e6300c2\ecj-4.6.1.jar;C:\Users\Jorge Cruz
+\.gradle\caches\modules-2\files-2.1\com.android.databinding\baseLibrary\2.3.1\2626e02aa9592edd5386d87408e05727303d9ded\baseLibrary-2.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\
+files-2.1\org.antlr\antlr4\4.5.3\f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1\antlr4-4.5.3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4
+f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.googlecode.juniversalchardet\juniversalchardet\1.0.3\cd49678784c46aa8789c060538e0
+154013bb421b\juniversalchardet-1.0.3.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.tools\annotations\25.3.1\79994fadd4402927bbe5c489b0967062350a2908\annotations-
+25.3.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\net.sf.proguard\proguard-base\5.3.2\e7011042563a48b2dd3e9ebcfcf9a3d18dfb476f\proguard-base-5.3.2.jar;C:\Users\Jorge Cruz
+\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.1\f69b5f7d96cec0d448acf1c1a266584170c9643b\asm-debug-all-5.0.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.
+1\org.antlr\ST4\4.0.8\a1c55e974f8a94d78e2348fa6ff63f4fa1fae64\ST4-4.0.8.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f65300
+9dcecb08d8b4afd\antlr-runtime-3.5.2.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-
+compress-1.8.1.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\net.sf.kxml\kxml2\2.3.0\ccbc77a5fd907ef863c29f3596c6f54ffa4e9442\kxml2-2.3.0.jar;C:\Users\Jorge Cruz\.gradle\cac
+hes\modules-2\files-2.1\com.intellij\annotations\12.0\bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539\annotations-12.0.jar;C:\Users\Jorge Cruz\.gradle\caches\modules-2\files-2.1\com.android.too
+ls.external.com-intellij\uast\162.2228.14\3d67ea648c9594d981896c40478744fdd515e713\uast-162.2228.14.jar com.rappi.erebor.EreborApplicationKt
+13:15:22.004 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Environment for process 'command 'C:\Program Files\Java\jdk1.8.0_221\bin\java.exe'': {USERDOMAIN_ROAMINGPROFILE=DESKT
+OP-9NV8BSG, BRS=c:\Program Files\HP\Sure Click\servers, PROCESSOR_LEVEL=6, RegionCode=LA, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=
+C:\Program Files (x86)\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\platform\PowerShell, __INTELL
+IJ_COMMAND_HISTFILE__=C:\Users\Jorge Cruz\.IdeaIC2019.2\config\terminal\history\history-46, SystemDrive=C:, USERNAME=Jorge Cruz, DIRNAME=%AMB_PATH%\rappi-p
+ay-ms\, ProgramFiles(x86)=C:\Program Files (x86), CMD_LINE_ARGS=:bootRun --debug, APP_HOME=%AMB_PATH%\rappi-pay-ms\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;
+.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, IntelliJ IDEA Community Edition=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;, plat
+formcode=AN, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Jorge Cruz, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel, ProgramFile
+s=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\windows, =::=::\, _SKIP=2, LOCALAPPDATA=C:\Users\Jorge Cruz\AppData\Local, USERDOMAIN=DESKTOP-9NV8BSG, LOGONSERVER=\\DESKTOP-9NV8BSG
+, JAVA_HOME=C:\Program Files\Java\jdk1.8.0_221, PROMPT=$P$G, DataGrip=C:\Program Files\JetBrains\DataGrip 2019.2.5\bin;, OneDrive=C:\Users\Jorge Cruz\OneDrive, APPDATA=C:\Users\Jorge Cru
+z\AppData\Roaming, =C:=%AMB_PATH%\rappi-pay-ms, JAVA_EXE=C:\Program Files\Java\jdk1.8.0_221/bin/java.exe, VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\Vir
+tualBox\, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker
+\Docker\Resources\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:
+\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;
+C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\PuTTY\;C:\Users\Jor
+ge Cruz\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Jorge Cruz\AppData\Local\Programs\Python\Python37\;C:\Users\Jorge Cruz\AppData\Local\Microsoft\WindowsApps;C:\Program Fil
+es\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;C:\Users\Jorge Cruz\AppData\Roaming\npm;C:\Users\Jorge Cruz\AppData\Local\atom\bin;C:\Program Files\JetBrains\DataGrip 2019.2.5\
+bin;, OS=Windows_NT, COMPUTERNAME=DESKTOP-9NV8BSG, PTSMINSTALLPATH=c:\Program Files\HP\HP ProtectTools Security Manager\Bin\, OnlineServices=Online Services, PROCESSOR_REVISION=8e0a, Com
+monProgramW6432=C:\Program Files\Common Files, CLASSPATH=%AMB_PATH%\rappi-pay-ms\\gradle\wrapper\gradle-wrapper.jar, ComSpec=C:\windows\system32\cmd.exe, P
+TSMINSTALLPATH_X86=c:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\, APP_BASE_NAME=gradlew, TERMINAL_EMULATOR=JetBrains-JediTerm, BRB=c:\Program Files\HP\Sure Click\bin, S
+ystemRoot=C:\windows, TEMP=C:\Users\JORGEC~1\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\Jorge Cruz, TMP=C:\Users\JORGEC~1\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Progr
+am Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, IDEA_INITIAL_DIRECTORY=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin

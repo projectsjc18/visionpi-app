@@ -4,7 +4,7 @@ const express = require('express');
 
 const app = express();
 
-app.use(express.static(__dirname + '/dist/visionpi'));  // sets the static files location to public
+app.use(express.static(__dirname + '/dist2/visionpi'));  // sets the static files location to public
 // [START hello_world]
 // Say hello!
 /*
